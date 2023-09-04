@@ -10,7 +10,6 @@ const PrivacyPolicy = () => {
   return (
     <>
       <Header />
-
       <MainContainer>
         <Terms>
           <h1>Privacy Policy</h1>
@@ -215,7 +214,7 @@ const PrivacyPolicy = () => {
 PrivacyPolicy.propTypes = {
   text: PropTypes.string,
   fontSize: PropTypes.string,
-  margin: PropTypes.string
+  margin: PropTypes.string,
 };
 export default PrivacyPolicy;
 
@@ -226,7 +225,7 @@ const MainContainer = styled.div`
   background-color: #fff;
   @media only screen and (max-width: 600px) {
     padding: 20px 20px 40px;
-    margin-top:100px;
+    margin-top: 100px;
   }
 `;
 
@@ -296,7 +295,7 @@ const Terms = styled.div`
     margin-top: 80px;
 
     &-card {
-      background: #ff7703;
+      background: #eb7d93;
       border-radius: 15px;
       padding: 30px 40px;
       display: flex;

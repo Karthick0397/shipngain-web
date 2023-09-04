@@ -14,7 +14,7 @@ const settings = {
   speed: 1000,
   slidesToShow: 1,
   swipe: true,
-  slidesToScroll: 1
+  slidesToScroll: 1,
 };
 const LandingPage = () => (
   <>
@@ -524,7 +524,7 @@ const LandingPage = () => (
             </div>
           </div>
 
-          <div className="testimonial"  id="downLoadApp">
+          <div className="testimonial" id="downLoadApp">
             <SliderContent style={{ display: "none" }}>
               <Slider {...settings}>
                 <SliderItem>
@@ -868,7 +868,7 @@ export const Banner = styled.div`
           position: absolute;
           height: 2px;
           width: 40px;
-          background-color: #ff6700;
+          background-color: #d25673;
         }
       }
       p {
@@ -994,7 +994,7 @@ export const ValueProposition = styled.div`
         width: 100%;
         margin: auto;
         margin-top: 10px;
-        background-color: #ff6700;
+        background-color: #d25673;
         @media only screen and (max-width: 767px) {
           margin-top: 6px;
         }
@@ -1046,7 +1046,7 @@ export const ValueProposition = styled.div`
           top: 10px;
           width: 8px;
           height: 8px;
-          background: #ff6700;
+          background: #d25673;
           border-radius: 50%;
           @media only screen and (max-width: 767px) {
             width: 10px;
@@ -1105,7 +1105,7 @@ export const Fullfillment = styled.div`
         width: 100%;
         margin: auto;
         margin-top: 10px;
-        background-color: #ff6700;
+        background-color: #d25673;
         @media only screen and (max-width: 767px) {
           margin-top: 6px;
         }
@@ -1238,7 +1238,7 @@ export const Fullfillment = styled.div`
         line-height: 20px;
       }
       .iconify {
-        color: #ff6700;
+        color: #d25673;
         min-width: 24px;
         width: 24px;
         height: 24px;
@@ -1356,7 +1356,7 @@ export const AboutUs = styled.div`
         width: 100%;
         margin: auto;
         margin-top: 10px;
-        background-color: #ff6700;
+        background-color: #d25673;
       }
     }
     & > p {
@@ -1434,7 +1434,7 @@ export const AboutUs = styled.div`
       font-size: 50px;
       line-height: 30px;
       text-align: center;
-      color: #ff6700;
+      color: #d25673;
       margin: 0px 0px 10px;
       background: #faf5f1;
       z-index: 1;
@@ -1516,7 +1516,7 @@ export const AboutUs = styled.div`
         position: absolute;
         height: 2px;
         width: 40px;
-        background-color: #ff6700;
+        background-color: #d25673;
         display: none;
       }
     }
@@ -1575,7 +1575,7 @@ export const AboutUs = styled.div`
         width: 100%;
         margin: auto;
         margin-top: 10px;
-        background-color: #ff6700;
+        background-color: #d25673;
       }
     }
     & > p {
@@ -1655,7 +1655,7 @@ export const CarSeller = styled.div`
         width: 100%;
         margin: auto;
         margin-top: 10px;
-        background-color: #ff6700;
+        background-color: #d25673;
         @media only screen and (max-width: 767px) {
           margin-top: 6px;
         }
@@ -1725,7 +1725,7 @@ export const CarSeller = styled.div`
         top: 30px;
         width: 1px;
         height: 100%;
-        border-right: 1.5px dashed #ff6700;
+        border-right: 1.5px dashed #d25673;
         @media only screen and (max-width: 767px) {
           height: 0px;
           width: 0px;
@@ -1738,13 +1738,13 @@ export const CarSeller = styled.div`
       left: 50%;
       top: 30px;
       width: 100%;
-      border-bottom: 1.5px dashed #ff6700;
+      border-bottom: 1.5px dashed #d25673;
       @media only screen and (max-width: 767px) {
         left: 25px;
         top: 17%;
         width: 1px;
         height: 100%;
-        border-right: 1.5px dashed #ff6700;
+        border-right: 1.5px dashed #d25673;
       }
     }
     & > span {
@@ -1753,7 +1753,7 @@ export const CarSeller = styled.div`
       justify-content: center;
       width: 64px;
       height: 64px;
-      background: #ff6700;
+      background: #d25673;
       border-radius: 80px;
       font-family: Inter;
       font-weight: bold;
@@ -1853,7 +1853,7 @@ export const CarSeller = styled.div`
       opacity: 1 !important;
     }
     .slick-dots li.slick-active button:before {
-      color: #f34732;
+      color: #d25673;
     }
   }
   .downloadApp {

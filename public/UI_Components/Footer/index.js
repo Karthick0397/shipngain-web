@@ -29,9 +29,7 @@ const Footer = () => (
       </div>
       <div className="footer-center">
         <div className="footer-contact">
-          <h1>
-            Sales:<span> 9606464255</span>{" "}
-          </h1>
+          <h1>{/* Sales:<span> 9606464255</span>{" "} */}</h1>
           <h1>
             Need support?: <span>9606464255</span>
           </h1>

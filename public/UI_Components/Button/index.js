@@ -15,22 +15,22 @@ import styled from "styled-components";
 // import buttonStyles from "./buttonStyles";
 
 const Buttons = styled.a`
-  height: ${props => props.height};
-  width: ${props => props.width || "auto"};
+  height: ${(props) => props.height};
+  width: ${(props) => props.width || "auto"};
   display: flex;
   justify-content: center;
   align-items: center;
   box-sizing: border-box;
-  padding: ${props => props.padding || "36px"};
+  padding: ${(props) => props.padding || "36px"};
   padding-top: 0px;
   padding-bottom: 0px;
   background: transparent;
   border: 1px solid #fff;
-  border-radius: ${props => props.borderRadius || "34px"};
-  margin: ${props => props.marginAll};
-  margin-top: ${props => props.marginTop};
-  margin-right: ${props => props.marginRight};
-  margin-left: ${props => props.marginLeft};
+  border-radius: ${(props) => props.borderRadius || "34px"};
+  margin: ${(props) => props.marginAll};
+  margin-top: ${(props) => props.marginTop};
+  margin-right: ${(props) => props.marginRight};
+  margin-left: ${(props) => props.marginLeft};
   text-decoration: none;
   -webkit-font-smoothing: antialiased;
   -webkit-touch-callout: none;
@@ -39,7 +39,7 @@ const Buttons = styled.a`
   outline: 0;
   font-family: "Inter", sans-serif;
   font-weight: 500;
-  font-size: ${props => props.fontSize || "14px"};
+  font-size: ${(props) => props.fontSize || "14px"};
   line-height: 17px;
   color: #ffffff;
   text-align: center;
@@ -47,17 +47,17 @@ const Buttons = styled.a`
 
   &.orange {
     background-color: transparent;
-    border-color: #ff6700;
-    color: #ff6700;
+    border-color: #d25673;
+    color: #d25673;
     font-weight: bold;
   }
   &.primary {
-    background-color: #FD8236;
-    border-color: #FD8236;
+    background-color: #d25673;
+    border-color: #d25673;
     font-weight: bold;
   }
 `;
-const Button = props => (
+const Button = (props) => (
   <Buttons
     fullwidth={props.fullwidth}
     height={props.height}
@@ -100,9 +100,9 @@ Button.propTypes = {
   padding: PropTypes.string,
   borderRadius: PropTypes.string,
   fontSize: PropTypes.string,
-  href: PropTypes.string
+  href: PropTypes.string,
 };
 Button.defaultProps = {
-  height: "60px"
+  height: "60px",
 };
 export default Button;

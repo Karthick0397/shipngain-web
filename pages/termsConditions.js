@@ -5,7 +5,7 @@ import Header from "../public/UI_Components/Header";
 import Button from "../public/UI_Components/Button";
 import Footer from "../public/UI_Components/Footer";
 
-const TermsConditions = props => {
+const TermsConditions = (props) => {
   return (
     <>
       <Header />
@@ -551,7 +551,8 @@ const TermsConditions = props => {
                   {" "}
                   Products cannot be returned and only be replaced within the
                   applicable window if you’ve received them in a condition that
-                  is physically damaged and is verified by Fresh Retail Ventures LLP.
+                  is physically damaged and is verified by Fresh Retail Ventures
+                  LLP.
                 </p>
                 <p>
                   {" "}
@@ -647,7 +648,7 @@ const TermsConditions = props => {
 TermsConditions.propTypes = {
   text: PropTypes.string,
   fontSize: PropTypes.string,
-  margin: PropTypes.string
+  margin: PropTypes.string,
 };
 export default TermsConditions;
 

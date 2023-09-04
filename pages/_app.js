@@ -12,7 +12,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Aggrow</title>
+        <title>Ship n Gain</title>
         <script src="https://code.iconify.design/1/1.0.3/iconify.min.js" />
       </Head>
       <Component {...pageProps} />

@@ -6,12 +6,12 @@ import styled from "styled-components";
 import Button from "../Button";
 // import "./header.scss";
 
-const Header = props => (
+const Header = (props) => (
   <HeaderContainer className={props.type}>
     <div className="header">
       <Link href="/">
         <div className="header-logo">
-          <img src="/images/Header/aggrow_2.png" alt="logo" />
+          <img src="/images/Header/Logo.svg" alt="logo" />
         </div>
       </Link>
 
@@ -24,14 +24,14 @@ const Header = props => (
             <li>Download app</li>
           </a>
 
-          <a href="#buyers">
+          {/* <a href="#buyers">
             <li>Sellers</li>
           </a>
           <a href="#buyers">
             <li>Buyers</li>
-          </a>
+          </a> */}
         </ul>
-        <Ripples color="rgba(255, 103, 0, 0.2)" during={1600}>
+        <Ripples color="#D25673" during={1600}>
           <Button
             text="Connect with us"
             type="orange"
@@ -42,21 +42,21 @@ const Header = props => (
         </Ripples>
       </div>
       <Link href="/menu">
-      <div className="header-hamburger">
-        <div className="nav-icon">
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
+        <div className="header-hamburger">
+          <div className="nav-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
         </div>
-      </div>
       </Link>
     </div>
   </HeaderContainer>
 );
 
 Header.propTypes = {
-  type: PropTypes.string
+  type: PropTypes.string,
 };
 export default Header;
 
@@ -131,7 +131,7 @@ export const HeaderContainer = styled.div`
           }
           &:hover,
           &.active {
-            color: #ff6700;
+            color: #d25673;
           }
         }
       }
@@ -164,7 +164,7 @@ export const HeaderContainer = styled.div`
     position: absolute;
     height: 2px;
     width: 100%;
-    background: #ff7703;
+    background: #d25673;
     border-radius: 9px;
     opacity: 1;
     left: 0;

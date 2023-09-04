@@ -67,13 +67,13 @@ const MenuPage = () => {
             </li>
           </ul>
         </MenuContent>
-        <MenuContent>
+        {/* <MenuContent>
           <h3>Sales</h3>
           <p>9606464255</p>
-        </MenuContent>
+        </MenuContent> */}
         <MenuContent>
           <h3>Need Support?</h3>
-          <p>9606464255</p>
+          <p>9844187378</p>
         </MenuContent>
       </MainContainer>
     </>
@@ -82,7 +82,7 @@ const MenuPage = () => {
 MenuPage.propTypes = {
   text: PropTypes.string,
   fontSize: PropTypes.string,
-  margin: PropTypes.string
+  margin: PropTypes.string,
 };
 export default MenuPage;
 
